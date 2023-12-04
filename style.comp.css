@@ -26,8 +26,8 @@ header {
     display: flex;
     text-decoration: none; }
   header .header--logo img {
-    width: 23vw;
-    height: 70px;
+    width: 15vw;
+    height: 80px;
     min-width: 300px; }
   header .header__nav {
     display: flex;
@@ -143,14 +143,15 @@ i[class*='fa-'] {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden; }
+    overflow: hidden;
+     }
     .section__acp img {
       width: 100%; }
 
 .article {
   position: relative;
   display: flex;
-  top: 100vw;
+  top: 150vw;
   justify-content: center;
   left: 0;
   right: 0; }
@@ -203,7 +204,7 @@ i[class*='fa-'] {
 .footer {
   overflow-x: hidden;
   height: 10vw;
-  top: calc(100vw);
+  top: calc(150vw);
   position: relative;
   width: 100vw;
   background-color: #1D1F20;
@@ -333,13 +334,13 @@ i[class*='fa-'] {
     margin-right: 10px;
     margin-right: 10px; }
   .footer {
-    top: 105vw; }
+    top: 170vw; }
   header .header__nav--ul__1 {
     margin-top: 16px !important; }
   header .header__nav--ul__2 {
     margin-right: 2vw; }
   .article {
-    top: 105vw;
+    top: 160vw;
     width: 100%; }
   .article__list {
     width: 100%;
@@ -353,7 +354,7 @@ i[class*='fa-'] {
   header .header__nav--ul__2 {
     margin-right: 3vw; }
   .article {
-    top: 105vw;
+    top: 165vw;
     margin-left: 0;
     margin-right: 25px; }
   .article__list i {
@@ -369,11 +370,9 @@ i[class*='fa-'] {
   header .header--logo img {
     margin-right: 5vw; }
   .article {
-    top: 110vw; }
+    top: 160vw; }
   .footer {
-    top: 110vw; }
-  .footer {
-    top: calc(120vw + 100px);
+    top: calc(160vw + 100px);
     height: 60vw; }
     .footer__section {
       display: flex;
@@ -422,7 +421,7 @@ i[class*='fa-'] {
   .section__acp {
     top: 240px; }
   .article {
-    top: calc( 120vw + 70px); } }
+    top: calc( 170vw + 70px); } }
 
 @media screen and (max-width: 476px) {
   header .header--logo img {
@@ -431,20 +430,22 @@ i[class*='fa-'] {
   .section__div h3 {
     text-align: center; }
   .article {
-    top: calc( 120vw + 100px); }
+    top: calc( 170vw + 100px); }
   .article__list {
     font-size: 1em; }
   .article__list i {
     margin-top: -30px;
     margin-left: 75vw; }
   .footer {
-    height: 90vw; }
+    height: 90vw; 
+  top:200vw;}
   .footer__section img {
     width: 10vw !important;
     min-width: 40vw !important; } }
 
 @media screen and (max-width: 340px) {
   .article {
-    top: calc( 120vw + 110px); }
+    top: calc( 170vw + 110px); }
   .header--logo img {
     width: 100px !important; } }
+
